@@ -14,11 +14,11 @@ from sklearn import metrics
 # ===============================
 st.set_page_config(
     page_title="Melbourne House Price AI",
-    page_icon="🏠",
+    page_icon="",
     layout="wide"
 )
 
-st.title("🏠 Melbourne House Price Prediction AI")
+st.title(" Melbourne House Price Prediction AI")
 st.write("Machine Learning Web Application using Streamlit")
 
 
@@ -152,5 +152,6 @@ with tab3:
     st.subheader("Features Used in Model")
 
     st.write(X.columns.tolist())
+
 
     st.write("Dataset Shape:", df_filtered.shape)
